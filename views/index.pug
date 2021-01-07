@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  
+  form(action="", method="post")
+    div.form-group
+      label(for="step1_topic") Topic:
+      input.form-control(type="text", placeholder="Enter Topic", name="topic")
+    
+    div.form-group
+      label(for="step2_description") Description:
+      textarea.form-control(name="description", rows="10", placeholder="Describe the topic to someone who doesn't know anything about the topic.", )
+
+    button.btn.btn-primary(type="submit") Save

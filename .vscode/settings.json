@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/6b678711-e207-4bbe-bad3-cb45178f095c/resourceGroups/learn-8b22af49-1884-4372-8425-53698e86d4ac/providers/Microsoft.Web/sites/azurelearn12345",
+    "appService.deploySubpath": "."
+}
